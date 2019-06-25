@@ -1,4 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "https://reasno.github.io/"
 languageCode = "en-us"
 title = "Garbage Collected"
 theme = "ananke"
+
+[params]
+  description = "A collection of my ephemeral thoughts"
+  twitter = "https://twitter.com/Reasno_g"
+  github = "https://github.com/Reasno"
