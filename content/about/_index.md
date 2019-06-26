@@ -1,8 +1,15 @@
 ---
 title: "About"
-description: "A few years ago, while visiting or, rather, rummaging about Notre-Dame, the author of this book found, in an obscure nook of one of the towers, the following word, engraved by hand upon the wall: —ANANKE."
+description: "What are we about? We are all humans, if not account for the beast within. But we don't want to be all look alike. We keep labeling ourselves to be (or not to be) many things. Dismantled the labels our true binding revails. We can always move from one city to another. We can swap our nationality if we want to. We can change your look and gender, probably too. Yet we cannot choose the time we live in. We are forever confined to be a permanent resident of our generation. Toast we shall, for our spin of time."
 featured_image: ''
 ---
-{{< figure src="/images/Victor_Hugo-Hunchback.jpg" title="Illustration from Victor Hugo et son temps (1881)" >}}
 
-My Memory are my own. That's called memory ownership.
+I am Gu Xi aka "Reasno". 
+
+I live in Beijing, China.
+
+I code in Go, PHP, TypeScript and Rust. 
+
+I run Kubernetes cluster on bare metals. 
+
+I am a Millennial.
