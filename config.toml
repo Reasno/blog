@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Garbage Collected"
 theme = "ananke"
 
+SectionPagesMenu = "main"
+Paginate = 10 
 [params]
   description = "A collection of my ephemeral thoughts"
   twitter = "https://twitter.com/Reasno_g"
