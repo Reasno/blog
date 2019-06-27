@@ -10,6 +10,4 @@ I live in Beijing, China.
 
 I code in Go, PHP, TypeScript and Rust. 
 
-I run Kubernetes cluster on bare metals. 
-
-I am a Millennial.
+I run Kubernetes cluster on bare metals.
