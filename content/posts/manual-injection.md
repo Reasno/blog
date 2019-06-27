@@ -2,6 +2,9 @@
 title: "Manual Injection"
 date: 2019-06-27T21:06:28+08:00
 draft: false
+tags:
+- Twitter
+- Dependency Injection
 ---
 
 Came across this pic from [twitter](twitter.com). 
