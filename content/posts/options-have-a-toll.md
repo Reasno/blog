@@ -13,7 +13,7 @@ Vue community exploded due to changes in Vue 3. Some comments are full of gunpow
 
 - B. I think functional API generally are more expressive compared to the old one.
 
-However I would like to provide a counter argument to a very point the maintainers of Vue made.
+However I would like to provide a counter argument to a very point the defender of RFC made.
 
 "The api is purely additive"/"Nothing is being taken away"
 
