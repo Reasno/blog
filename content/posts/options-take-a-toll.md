@@ -1,5 +1,5 @@
 ---
-title: "Options Have a Toll"
+title: "Options Take a Toll"
 date: 2019-06-30T16:24:33+08:00
 draft: false
 tags:
