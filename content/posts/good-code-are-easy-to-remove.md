@@ -1,8 +1,7 @@
 ---
 title: "Good Code Are Easy to Remove"
 date: 2019-07-06T23:18:37+08:00
-draft: true
-
+draft: false
 tags:
 - Coding Suggestion
 ---
