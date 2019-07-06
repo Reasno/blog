@@ -6,6 +6,7 @@ theme = "ananke"
 SectionPagesMenu = "main"
 Paginate = 10 
 [params]
+  commentoEnable = true
   description = "A collection of my ephemeral thoughts"
   twitter = "https://twitter.com/Reasno_g"
   github = "https://github.com/Reasno"

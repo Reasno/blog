@@ -5,6 +5,7 @@ draft: false
 tags:
 - Twitter
 - Dependency Injection
+- Coding Suggestion
 ---
 
 Came across this pic from [twitter](twitter.com). 
