@@ -6,6 +6,7 @@ theme = "ananke"
 SectionPagesMenu = "main"
 Paginate = 10 
 googleAnalytics = "UA-10190882-5"
+enableRobotsTXT = true
 
 [params]
   commentoEnable = true
