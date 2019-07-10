@@ -6,7 +6,7 @@ tags:
 - RxJS
 ---
 
-RxJS is bonker!
+RxJS is bonkers!
 
 Imagine you have an unbounded stream of events. Each has a unique id. Now you want to throttle the stream based on id, ie. each id should not appear more often than X minutes.
 

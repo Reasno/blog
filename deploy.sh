@@ -2,6 +2,17 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# Commit changes.
+msg="rebuilding site `date`"
+
+git add .
+
+git pull -X theirs
+
+git commit -a -m "$msg"
+
+git push origin master
+
 # Build the project.
 HUGO_ENV=production hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
