@@ -15,7 +15,7 @@ With RxJS:
 ```ts
 // Throttle each id in one minute.
 fromEvent(emitter, 'tick').pipe(
-	groupBy((ctx: pb.UpsertRequest) => ctx.getAdId()),
+	groupBy((e: Event) => e.getId()),
 	flatMap(group => group.pipe(throttleTime(60 * 1000))),
 ).subscribe(
 	//Do your stuff
