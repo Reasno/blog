@@ -14,4 +14,4 @@ Yesterday I was forced into a binlog trace of the production MySQL database. I h
 mysqlbinlog --base64-output=DECODE-ROWS -vv mysql_bin.001856
 ```
 
-If you are a new guy into programming, do not think of SQL as a legacy of the last century. Think of it as the lingua franca of data science.
+If you are a new guy into programming, do not think of SQL as a legacy of the last century. Think of it as the lingua franca of data science. Just learn it. You won't be wasting your time.
