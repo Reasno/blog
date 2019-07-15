@@ -1,7 +1,11 @@
 ---
 title: "Realtime Query Oriented Data Structure for DMP"
 date: 2019-07-13T11:21:14+08:00
-draft: true
+draft: false
+tags:
+- Advertising
+- Bloom Filter
+- Redis
 ---
 
 
