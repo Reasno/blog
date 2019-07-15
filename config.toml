@@ -13,3 +13,4 @@ enableRobotsTXT = true
   description = "A collection of my ephemeral thoughts"
   twitter = "https://twitter.com/Reasno_g"
   github = "https://github.com/Reasno"
+  recent_posts_number = 5
