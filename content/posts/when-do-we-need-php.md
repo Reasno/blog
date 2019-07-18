@@ -19,7 +19,7 @@ But still, I think the flexibility of PHP still matters in some use cases today.
 * Opensource templates for PHP are all over the place.
 * Very few traps you can go in.
 
-In short, use PHP, when the development velocity weights more than future maintainability. And this is a compliment. You do know nine out of ten start-ups failed, don't you?
+In short, use PHP, when the development velocity weights more than future maintainability. And this is a compliment. You do know nine out of ten start-ups failed in the first year, don't you?
 
 
 
