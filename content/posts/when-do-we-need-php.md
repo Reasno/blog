@@ -1,5 +1,5 @@
 ---
-title: "When Do We Need Php"
+title: "When Do We Need PHP"
 date: 2019-07-18T12:57:59+08:00
 draft: false
 ---
@@ -15,7 +15,7 @@ Even in my little simple personal project, I would love to avoid using PHP. Chec
 But still, I think the flexibility of PHP still matters in some use cases today. It will shine if you are starting a startup.  PHP frameworks are mature and easy to master, which means: 
 
 # When your business grows it is easy to hire new developers. 
-# Opensource templates for PHP is all over the place.
+# Opensource templates for PHP are all over the place.
 # Very few traps you can go in.
 
 In short, use PHP, when the development velocity weights more than future maintainability. And this is a compliment. You do know nine out of ten start-ups failed, don't you?
