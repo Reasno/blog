@@ -2,6 +2,9 @@
 title: "When Do We Need PHP"
 date: 2019-07-18T12:57:59+08:00
 draft: false
+tags:
+- PHP
+- Go
 ---
 
 When we started [huijiwiki.com](https://www.huijiwiki.com), PHP was the language of the choice. But it was not much a choice. MediaWiki was coded in PHP. It provided us a solid starting point to expand our idea. 
