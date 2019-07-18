@@ -14,6 +14,7 @@ Even in my little simple personal project, I would love to avoid using PHP. Chec
 
 But still, I think the flexibility of PHP still matters in some use cases today. It will shine if you are starting a startup.  PHP frameworks are mature and easy to master, which means: 
 
+* Your productivity will be unparalleled. (*Not for the lack of async*)
 * When your business grows it is easy to hire new developers. 
 * Opensource templates for PHP are all over the place.
 * Very few traps you can go in.
