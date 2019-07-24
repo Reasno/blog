@@ -4,7 +4,7 @@ date: 2019-07-24T14:15:03+08:00
 draft: false
 tags:
 - Event Loop
-- *epoll()*
+- epoll()
 ---
 
 The biggest challenge for intermediate developers to understand event loop is that the articles found around the web are either written for die-hard C programmers or simply too long to read. I will give a try on explaining the event loop/**epoll()**, and stop at a point where interviewers will be sufficiently satisfied. 
