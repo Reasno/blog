@@ -7,7 +7,7 @@ tags:
 - epoll()
 ---
 
-The biggest challenge for intermediate developers to understand event loop is that the articles found around the web are either written for die-hard C programmers or simply too long to read. I will give a try on explaining the event loop/**epoll()**, and stop at a point where interviewers will be sufficiently satisfied. 
+The biggest challenge for intermediate developers to understand event loop is that the articles found around the web are either written for die-hard C programmers or simply too long to read. I will give a try on explaining the event loop/*epoll()*, and stop at a point where interviewers will be sufficiently satisfied. 
 
 The first thing should be made crystal clear is that things happen on two sides: The kernel and the userspace. The bridge between two worlds is the system call -- *epoll()*. 
 
