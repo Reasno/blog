@@ -13,6 +13,9 @@ The first thing should be made crystal clear is that things happen on two sides:
 
 ## The kernel, *epoll()*
 
+*epoll()* is a system call in linux systems. On windows you will use IO Completion Ports, while on mac and freebsd you will have kqueue. They all do similar things. 
+
+
 Programs can register an event through the system call. Programs must provide what file descriptor (An abstract handle for resources, abbr. as FD) and what kind of event (read, write, etc.) they want to watch. After it is done, programs will go to sleep. Registered entries will be placed onto a red-black tree in the preallocated kernel memory. Kernel will be responsible to call the poll method on the device. Once an interrupt (Such as packet arrives) happens, the device says to kernel that it is ready. The kernel will then copy the corresponding data to a ready list, and wake up the program who cares about this FD event by searching the red-black tree. A program may be waiting for multiple events. So Kernel will tell the program what is/are ready.
 
 ## The Userspace, event loop
@@ -24,7 +27,4 @@ The userspace doesn't necessarily mean the code written by yourself. Node.js uti
 On the kernel side, *epoll()* is often compared to *poll()* and *select()*. The former comes with which FD and events are triggered, making the user program O(1) to find out what happened, whereas the latter two do not, making them O(n) because the user has to look up every possible FD.
 
 On the userspace, the event loop is often compared to the multi-threading model. System threads are heavyweight, so the upper bound of the threads you can have becomes the bottleneck of a high traffic system. On the other hand, the event loop allows a single thread to be multiplexed by your busiest port. 
-
-## The rest to know
-Epoll is a system call in linux systems. On windows you will use IO Completion Ports, while on mac and freebsd you will have kqueue. They all do similar things. 
 
