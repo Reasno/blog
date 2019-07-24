@@ -21,9 +21,9 @@ The userspace doesn't necessarily mean the code written by yourself. Node.js uti
 
 ## the (un)fair comparasion
 
-On the kernel side, *epoll()* is often compared to *poll()* and *select()*. The former comes with which FD and events are triggered, making the user program O(1) to find out what happend, whereas the latter two do not, making them O(n) because user have to look up every possible FD.
+On the kernel side, *epoll()* is often compared to *poll()* and *select()*. The former comes with which FD and events are triggered, making the user program O(1) to find out what happened, whereas the latter two do not, making them O(n) because the user has to look up every possible FD.
 
-On the userspace, event loop is often comapred to the multi-threading model. System threads are heavy weight, so the upper bound of the threads you can have becomes the bottle neck of a high traffic system. On the other hand event loop allows a single thread to be multiplexed by your busiest port. 
+On the userspace, the event loop is often compared to the multi-threading model. System threads are heavyweight, so the upper bound of the threads you can have becomes the bottleneck of a high traffic system. On the other hand, the event loop allows a single thread to be multiplexed by your busiest port. 
 
 ## The rest to know
 Epoll is a system call in linux systems. On windows you will use IO Completion Ports, while on mac and freebsd you will have kqueue. They all do similar things. 
