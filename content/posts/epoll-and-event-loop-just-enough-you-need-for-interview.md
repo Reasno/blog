@@ -22,7 +22,7 @@ Programs can register an event through the system call. Programs must provide wh
 
 The userspace doesn't necessarily mean the code written by yourself. Node.js utilize libuv to provide an event loop. For Go, the event loop resides in the net package. For Rust, the event loop is provided by the fabulous Tokio crate. Every implemetation is slightly different. Taking Tokio for instance, it mostly contain two major components, the reactor, and the executor. The executor holds a queue of the Futures, ask them one by one if they are resolved/ready. The executor will dispatch the callback for the ready ones and pass it down to the reactor for the non-ready ones. The Reactor will talk to the kernel, go to sleep, wake by the kernel and report the status and data back to the executor. Then the loop goes on. Sometimes the event loop has more capabilities than doing IO. For example, the event loop can execute tasks based on a timeout or time interval. For such use cases, the reactor is not needed. 
 
-## the (un)fair comparasion
+## the (un)fair comparision
 
 On the kernel side, *epoll()* is often compared to *poll()* and *select()*. The former comes with which FD and events are triggered, making the user program O(1) to find out what happened, whereas the latter two do not, making them O(n) because the user has to look up every possible FD.
 
