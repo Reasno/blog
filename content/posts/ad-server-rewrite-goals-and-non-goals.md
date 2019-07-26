@@ -6,6 +6,7 @@ toc: true
 tags:
 - Advertising
 - Coding Suggestion
+- Typescript
 ---
 
 We have carried out the first or maybe last round of rewrite of the [Juhui](http://www.adjuhui.cn/) DSP/SSP/ADX with Typescript. A few goals and non-goals have been set for this labor-intensive process.
