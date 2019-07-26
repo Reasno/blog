@@ -10,7 +10,7 @@ tags:
 
 We have carried out the first or maybe last round of rewrite of [Juhui](http://www.adjuhui.cn/) ad platform. A few goals and non-goals has been set for this labor-intensive process.
 
-## Goals:
+## Goals
 
 * Strong typed. 
 * Strong API contracts.
@@ -21,7 +21,7 @@ We have carried out the first or maybe last round of rewrite of [Juhui](http://w
 * Improved readability.
 * Proper code deprecation process.
 
-## Non-Goals:
+## Non-Goals
 
 * Use fancy technology.
 * Reinvent the wheel.
@@ -31,7 +31,7 @@ We have carried out the first or maybe last round of rewrite of [Juhui](http://w
 * Premature optimization for performance.
 * Programming productivity (Reduce boilerplate).
 
-These goals and non-goals are driven by our business need, and the logic of which is overwhelming, undocumented and changes almost three times a day.
+These goals and non-goals are driven by our business need. Logics for advertising industry is often overwhelming, undocumented and may change three times a day.
 
 
 
