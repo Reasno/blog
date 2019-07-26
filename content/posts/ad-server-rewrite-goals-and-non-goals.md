@@ -5,7 +5,7 @@ draft: false
 toc: true
 tags:
 - Advertising
-- Coding Suggestions
+- Coding Suggestion
 ---
 
 We have carried out the first or maybe last round of rewrite of [Juhui](http://www.adjuhui.cn/) ad platform. A few goals and non-goals have been set for this labor-intensive process.
@@ -19,7 +19,7 @@ We have carried out the first or maybe last round of rewrite of [Juhui](http://w
 * Testcases can be run by anyone.
 * Stateless over stateful.
 * Improved readability.
-* Proper code deprecation process.
+* [Proper code deprecation process.](/posts/good-code-are-easy-to-remove/)
 
 ## Non-Goals
 
