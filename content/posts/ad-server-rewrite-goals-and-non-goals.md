@@ -8,13 +8,13 @@ tags:
 - Coding Suggestions
 ---
 
-We have carried out the first or maybe last round of rewrite of [Juhui](http://www.adjuhui.cn/) ad platform. A few goals and non-goals has been set for this labor-intensive process.
+We have carried out the first or maybe last round of rewrite of [Juhui](http://www.adjuhui.cn/) ad platform. A few goals and non-goals have been set for this labor-intensive process.
 
 ## Goals
 
 * Strong typed. 
 * Strong API contracts.
-* Holistic Observability with logging, tracing and metrics.
+* Holistic Observability with logging, tracing, and metrics.
 * Layered Architecture and dedicated component.
 * Testcases can be run by anyone.
 * Stateless over stateful.
@@ -31,7 +31,7 @@ We have carried out the first or maybe last round of rewrite of [Juhui](http://w
 * Premature optimization for performance.
 * Programming productivity (Reduce boilerplate).
 
-These goals and non-goals are driven by our business need. Logics for advertising industry is often overwhelming, undocumented and may change three times a day.
+These goals and non-goals are driven by our business needs. Logics for the advertising industry is often overwhelming, undocumented and may change three times a day.
 
 
 
