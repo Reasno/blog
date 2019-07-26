@@ -5,7 +5,8 @@ draft: false
 toc: true
 tags:
 - Event Loop
-- epoll()
+- epoll
+- Interview
 ---
 
 The biggest challenge for intermediate developers to understand event loop is that the articles found around the web are either written for die-hard C programmers or simply too long to read. I will give a try on explaining the event loop/*epoll()*, and stop at a point where interviewers will be sufficiently satisfied. 
