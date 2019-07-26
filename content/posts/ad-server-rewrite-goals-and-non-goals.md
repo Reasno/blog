@@ -8,7 +8,7 @@ tags:
 - Coding Suggestion
 ---
 
-We have carried out the first or maybe last round of rewrite of [Juhui](http://www.adjuhui.cn/) ad platform. A few goals and non-goals have been set for this labor-intensive process.
+We have carried out the first or maybe last round of rewrite of the [Juhui](http://www.adjuhui.cn/) DSP/SSP/ADX with Typescript. A few goals and non-goals have been set for this labor-intensive process.
 
 ## Goals
 
