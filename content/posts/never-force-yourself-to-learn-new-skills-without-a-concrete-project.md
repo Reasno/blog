@@ -5,7 +5,7 @@ draft: false
 tags:
 - Coding Suggestion
 - Tensorflow
-- C#
+- PHP
 ---
 
 As the job demand is going nowhere in a decade, a lot of new guys want to get into programming. There are numerous courses online, teaching a variety of skills in programming. There are also new shinning frameworks climbing up GitHub trending every day. I see a lot of people, typically newly graduated students, get confused. There seems to be an endless stream of knowledge to learn. How many skills are enough?
