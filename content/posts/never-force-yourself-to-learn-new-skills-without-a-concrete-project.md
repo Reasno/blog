@@ -8,7 +8,7 @@ tags:
 - C#
 ---
 
-As the job demand is going nowhere in a decade, a lot of new guys want to get into programming. There are numerous courses online, teaching a variety of skills in programming. There are also new shinning frameworks climbing up GitHub trending every day. I see a lot of people, typically newly graduated students, get confused. There seems to be an endless stream of knowledge to learn. How much skill is enough?
+As the job demand is going nowhere in a decade, a lot of new guys want to get into programming. There are numerous courses online, teaching a variety of skills in programming. There are also new shinning frameworks climbing up GitHub trending every day. I see a lot of people, typically newly graduated students, get confused. There seems to be an endless stream of knowledge to learn. How many skills are enough?
 
 The truth is there is a lot of knowledge not worth learning in this field. Some are too narrow, some are too outdated, and some are too unstable.  And you are very unlikely to grasp the core of any skill without working on a real project with it. 
 
