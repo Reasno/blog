@@ -25,9 +25,9 @@ $this->app->when([VideoController::class, UploadController::class])
           });
 ```
 
-This code looks nice and handy at first glance, but in my experience, they are often doing more harm than any good.  Of many merits dependency injection may have, managing business domain logic is not one of them. Sometimes we can inject based on an env value or a flag, but injection based on a dynamic property has gone too far.
+This code looks nice and handy at first glance, but in my experience, they are often doing more harm than any good. Of many merits dependency injection may have, managing business domain logic is not one of them. Sometimes we can inject based on an env value or a flag, but injection based on a dynamic business property has gone too far.
 
-What you can do is simply inject a factory class for all your route/module, and make your little minions dynamically from that factory class. What makes things different is that the factory class is a part of your domain logic, not part of your bootstrap helper. 
+What you can do is simply inject a factory class for all your route/module, and make your little minions dynamically from that factory class. What makes things different is that the factory instance will be explictly called in your domain logic, inviting programers to keep track of the actually condition. 
 
 ```php
 $this->app->singleton('My\Factory', function ($app) {
@@ -42,4 +42,4 @@ $this->app->singleton('My\Factory', function ($app) {
 });
 ```
 
-It turns out you will pratically never need a contextual binding. Logic buried in the boostrap phase is a death trap for other future maintainers. 
+It turns out you will pratically never need a contextual binding. Logic buried in the boostrap phase is a death trap for future maintainers. 
