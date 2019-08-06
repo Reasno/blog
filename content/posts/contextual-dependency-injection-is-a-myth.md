@@ -12,6 +12,7 @@ Sometimes in your daily programming life, you would want to inject different obj
 
 In Laravel it looks like this:
 ```php
+<?php
 $this->app->when(PhotoController::class)
           ->needs(Filesystem::class)
           ->give(function () {
@@ -30,6 +31,7 @@ This code looks nice and handy at first glance, but in my experience, they are o
 What you can do is simply inject a factory class for all your route/module, and make your little minions dynamically from that factory class. What makes things different is that the factory instance will be explictly called in your domain logic, inviting programers to keep track of the actual condition. 
 
 ```php
+<?php
 $this->app->singleton('My\Factory', function ($app) {
     return new class{
         public function create(string $route){
