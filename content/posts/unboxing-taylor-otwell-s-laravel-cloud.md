@@ -15,7 +15,7 @@ I cloned the repository and skimmed through most of the classes. Here are my tak
 
 2. No Extra layers. Just Model-Controller-View. I thought I would introduce a service layer for a complex business like this. But no, Taylor didn't do it. 
 
-3. The factory classes are widely adopted. It was not a surprise after seeing so few DI delegated to the service container. Like I wrote in my previous blog, factory classes leave more discoverable traces of how logics are composed in a business domain. 
+3. The factory classes are widely adopted. It was not a surprise after seeing so few DI delegated to the service container. Like I wrote in [my previous blog](/posts/contextual-dependency-injection-is-a-myth/), factory classes leave more discoverable traces of how logics are composed in a business domain. 
 
 4. Tayler is quite liberal to use real-time facades, wielding its magic fearlessly. The code does seem much cleaner after boilerplates out of the way. 
 
