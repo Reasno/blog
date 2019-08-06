@@ -7,7 +7,7 @@ tags:
 - PHP
 ---
 
-Taylor Otwell, the author of Laravel, recently put up a public copy of his unfinished work Laravel Cloud in GitHub. It was taken down by himself briefly after, due to what he described as "too much BS". Forks are still available everywhere though. [Here is my fork.](https://github.com/Reasno/laravel-cloud.git)
+Taylor Otwell, the author of Laravel, recently put up a public copy of his unfinished work Laravel Cloud in GitHub. It was taken down by himself briefly after, due to what he described as "[too much BS](https://twitter.com/taylorotwell/status/1157346751738712064)". Forks are still available everywhere though. [Here is my fork.](https://github.com/Reasno/laravel-cloud.git)
 
 I cloned the repository and skimmed through most of the classes. Here are my takeaways. 
 
