@@ -17,7 +17,7 @@ I cloned the repository and skimmed through most of the classes. Here are my tak
 
 3. The factory classes are widely adopted. It was not a surprise after seeing so few DI delegated to the service container. Like I wrote in [my previous blog](/posts/contextual-dependency-injection-is-a-myth/), factory classes leave more discoverable traces of how logics are composed in a business domain. 
 
-4. Tayler is quite liberal to use real-time facades, wielding its magic fearlessly. The code does seem much cleaner after boilerplates out of the way. 
+4. Tayler is at liberty to use real-time facades, wielding its magic fearlessly. The code does seem much cleaner after boilerplates out of the way. 
 
 5. Models sometimes have added the responsibility of interfering with domain logic. Probably a consequence of No.2.
 
