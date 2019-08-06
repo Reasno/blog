@@ -7,6 +7,9 @@ SectionPagesMenu = "main"
 Paginate = 12 
 googleAnalytics = "UA-10190882-5"
 enableRobotsTXT = true
+pygmentsUseClasses = true
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
 
 [related]
   threshold = 20
@@ -25,3 +28,4 @@ enableRobotsTXT = true
   twitter = "https://twitter.com/Reasno_g"
   github = "https://github.com/Reasno"
   recent_posts_number = 5
+  custom_css = ["css/syntax.css"]

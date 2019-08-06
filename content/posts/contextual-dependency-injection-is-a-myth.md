@@ -11,7 +11,7 @@ tags:
 Sometimes in your daily programming life, you would want to inject different object instances based on the current route or module. For example, you want to connect to  Database Foo for route /foo and Database Bar for route /bar. It seems a clever idea to do what is called a "contextual binding", aka inject instances conditionally based on some runtime value.
 
 In Laravel it looks like this:
-``` php
+```php
 $this->app->when(PhotoController::class)
           ->needs(Filesystem::class)
           ->give(function () {
