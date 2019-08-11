@@ -14,4 +14,4 @@ I would enjoy and appreciate a work where all business domains, application doma
 
 Unless you are in a very big and mature corporation, your team is likely not cleanly architectured too. You don't have a dedicated team for every layer, and you don't have an independent decision-making process for every layer, so why faking your code to suggest you have. 
 
-Don't get me wrong, I like the Onion Architecture and middlewares very much, but I would generally save them for crosscutting concerns known for sure, such as logging and monitoring. Business rules? Maybe not. 
+Don't get me wrong, I like the Onion Architecture and middlewares very much, but I would generally save them for crosscutting concerns known for sure, such as logging and caching. Business rules? Maybe not. 
