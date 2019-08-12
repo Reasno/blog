@@ -8,7 +8,7 @@ tags:
 - Coding Suggestion
 ---
 
-The Clean Architecture is more like a fantasy. It is like a wonderland we will never be in. 
+[The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) is more like a fantasy. It is like a wonderland we will never be in. 
 
 I would enjoy and appreciate a work where all business domains, application domains, and transports and UIs, etc. are all orthogonal. In reality, they are all wired together like a mess. It is no mess created by engineer though. The world is chaotic by itself, so do all the business around it. Imagine your boss tell your team to add a new button to your website, and you find your business rule doesn't cover this button what so ever, so you have to update your JSON API, add new test cases, and add new event to your event sourcing bus,  and change whatever is affected all the way down to the database level.
 
