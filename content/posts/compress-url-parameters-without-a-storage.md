@@ -2,6 +2,7 @@
 title: "Compress Url Parameters Without a Storage"
 date: 2019-08-13T12:55:17+08:00
 draft: false
+featured_image: '/images/PHP-logo.svg'
 tags:
 - advertising
 - http

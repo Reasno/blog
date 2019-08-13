@@ -1,6 +1,5 @@
 ---
 title: "Garbage Collected"
-featured_image: '/images/gohugo-default-sample-hero-image.jpg'
+featured_image: '/images/Road.jpg'
 description: "A collection of my ephemeral thoughts"
 ---
-Warning: Blogs are opinions, not facts, nor tutorials.
