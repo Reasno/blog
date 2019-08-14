@@ -2,6 +2,10 @@
 title: "Compress Url Parameters Without a Storage"
 date: 2019-08-13T12:55:17+08:00
 draft: false
+summary: |
+  In advertising and other online marketing fields, a common practice is to distribute URLs to the clients so that they can report user action through a simple GET request. 
+
+  Those parameters are fake. But you got the idea. Longer URLs mean higher bandwidth consumption. Moreover, if your URL is too long, you will risk triggering **Error 413: request entity too large**. I know nginx throws it. 
 tags:
 - advertising
 - http
