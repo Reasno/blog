@@ -25,17 +25,17 @@ But backpressure can still hit you hard where you least expected. I recommend re
 In the end I would like to showcase a hand crafted backpressure defense in our production code, with the excellent RxJS library.
 
 ```ts
-		fromEvent(call, 'data').pipe(
-			takeUntil(fromEvent(call, 'end')),
-			bufferCount(50),
-		).subscribe(
-			() => {
-				call.pause();
-				setTimeout(function () {
-					if (call.isPaused()) {
-						call.resume();
-					}
-				}, 100);
-			}
-		);
+fromEvent(call, 'data').pipe(
+  takeUntil(fromEvent(call, 'end')),
+  bufferCount(50),
+).subscribe(
+  () => {
+    call.pause();
+    setTimeout(function () {
+      if (call.isPaused()) {
+        call.resume();
+      }
+    }, 100);
+  }
+);
 ```
