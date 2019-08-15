@@ -2,6 +2,7 @@
 title: "Purposed PHP Dialect: P++"
 date: 2019-08-12T08:26:23+08:00
 draft: false
+featured_image: '/images/PHP-logo.svg'
 tags:
 - PHP
 ---
