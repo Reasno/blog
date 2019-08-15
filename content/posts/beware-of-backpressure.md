@@ -5,6 +5,7 @@ draft: false
 tags:
 - Stream
 - NodeJS
+- javascript
 - RxJS
 ---
 
