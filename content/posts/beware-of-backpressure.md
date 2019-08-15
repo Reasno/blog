@@ -19,7 +19,7 @@ There are a couple of reasons why new developers seldom think about backpressure
 
 * NodeJS handles predefined stream backpressure for you out of box.
 
-* High watermark is usually pretty high. Without a big stream to process, you will rarely go above it.
+* High watermark is usually pretty high. Without a fairly large stream to process, you will rarely go above it.
 
 But backpressure can still hit you hard where you least expected. I recommend reading about backpressure [here](https://nodejs.org/es/docs/guides/backpressuring-in-streams).
 
