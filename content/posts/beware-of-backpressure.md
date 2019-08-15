@@ -31,7 +31,7 @@ fromEvent(call, 'data').pipe(
 ).subscribe(
   () => {
     call.pause();
-    setTimeout(function () {
+    setTimeout(() => {
       if (call.isPaused()) {
         call.resume();
       }
