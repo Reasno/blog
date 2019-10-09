@@ -8,10 +8,6 @@ tags:
 
 I am going to give a talk highlighting elementary concepts in online advertising. It is a good time to review all the basics.
 
-**Advertiser** Organizations that want to promote a product through different media either directly or through other buyers.
-
-Major challenges: 
-
 **DSP** Demand-side platforms receive an ad request that they must answer by a time set by the SSP or ad exchange. The time allowed can be as low as 100 ms and range up to a few seconds. DSPs decide whether they want to bid. If they do, they must select an ad, determine a bid price, and return their offer to the ad exchange.
 
 Major chanllenges: CTR Predictions; CVR Predictions; Ad Optimiztion; Audience segementation; 
