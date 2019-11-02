@@ -1,5 +1,5 @@
 ---
-title: "Hyperf Clean Annotations"
+title: "Hyperf注解整洁之道"
 date: 2019-11-02T21:21:14+08:00
 draft: false
 tags:
