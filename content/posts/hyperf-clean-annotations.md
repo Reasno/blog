@@ -60,7 +60,7 @@ class FooCircuitBreakerAnnotation extends CircuitBreakerAnnotation
      * The counter required to reset to a open state.
      * @var int
      */
-    public $failCounter = 10;
+    public $failCounter = 1;
 
     public function collectMethod(string $className, ?string $target): void
     {
