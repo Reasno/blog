@@ -1,5 +1,5 @@
 ---
-title: "Hyperf注解整洁之道"
+title: "Hyperf 注解整洁之道"
 date: 2019-11-02T21:21:14+08:00
 draft: false
 tags:
@@ -69,7 +69,7 @@ class FooCircuitBreakerAnnotation extends CircuitBreakerAnnotation
 }
 ```
 
-注意我们重写了CollectMethod方法，告知`AnnotationCollector`把该类当成CircuitBreakerAnnotation来收集。如果不重写这个方法，熔断器切片就无法切入@FooCircuitBreaker。
+注意我们重写了CollectMethod方法，告知 `AnnotationCollector` 把该类当成 `CircuitBreakerAnnotation` 来收集。如果不重写这个方法，熔断器切片就无法切入 `@FooCircuitBreaker`。
 
 在我们的代码中，就可以使用 `@FooCircuitBreaker` 来替代上述那个特别长的注解了。
 
