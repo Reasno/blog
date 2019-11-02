@@ -40,10 +40,10 @@ tags:
  */
 class FooCircuitBreakerAnnotation extends CircuitBreakerAnnotation
 {
-	/**
-	 * @var float
-	 */
-	public $timeout = 0.05;
+    /**
+     * @var float
+     */
+    public $timeout = 0.05;
 
     /**
      * @var string
