@@ -12,7 +12,7 @@ tags:
 
 在某些注解中，可能有很多配置项，比如：
 
-```
+```ts
 //这还不是一个特别夸张的例子
 @CircuitBreaker(timeout=0.05, failCounter=1, successCounter=1, fallback="App\Service\UserService::searchFallback")
 ```
