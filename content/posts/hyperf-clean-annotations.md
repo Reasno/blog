@@ -73,7 +73,7 @@ class FooCircuitBreakerAnnotation extends CircuitBreakerAnnotation
 
 现在，我们的代码中，就可以使用 `@FooCircuitBreaker` 来替代上述那个特别长的注解了。
 
-除了继承以外，还可以任意组合注解。比如：
+除了继承以外，还可以任意组合注解。
 
 ```php
 <?php
