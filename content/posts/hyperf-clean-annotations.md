@@ -107,5 +107,5 @@ class MetricsAnnotation extends AbstractAnnotation
 
 引入Metrics注解类后，我们可以用 `@Metrics` 来替代 `@Counter(name="my_metric")` 和 `@Histogram(name="my_metric")` 两个注解了。
 
-这个技巧还请酌情使用，不要滥用哦。
+本文介绍的技巧还请酌情使用，不要滥用哦。
 
