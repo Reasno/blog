@@ -25,7 +25,7 @@ tags:
 
 这里我向大家推荐通过继承的方式配置Hyperf内的注解。
 
-下面是一个继承[CircuitBreaker（熔断器）](https://doc.hyperf.io/#/zh/circuit-breaker)的例子。
+下面是一个继承[CircuitBreaker](https://doc.hyperf.io/#/zh/circuit-breaker)（熔断器）注解的例子。
 
 ```php
 <?php
