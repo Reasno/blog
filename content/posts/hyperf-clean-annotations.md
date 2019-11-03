@@ -73,7 +73,7 @@ class FooCircuitBreakerAnnotation extends CircuitBreakerAnnotation
 
 现在，我们的代码中，就可以使用 `@FooCircuitBreaker` 来替代上述那个特别长的注解了。
 
-除了继承以外，还可以任意组合注解。
+除了继承以外，还可以任意组合注解。看一下下面这个例子。
 
 ```php
 <?php
@@ -105,7 +105,7 @@ class MetricsAnnotation extends AbstractAnnotation
 }
 ```
 
-我们可以用 `@Metrics` 来替代 `@Counter(name="my_metric")` 和 `@Histogram(name="my_metric")` 两个注解了。
+引入Metrics注解类后，我们可以用 `@Metrics` 来替代 `@Counter(name="my_metric")` 和 `@Histogram(name="my_metric")` 两个注解了。
 
 这个技巧还请酌情使用，不要滥用哦。
 
