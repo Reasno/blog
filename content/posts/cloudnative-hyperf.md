@@ -246,6 +246,7 @@ return [
 我们按照Hyperf习惯的方式新建一下config/autoload/file.php，并配置S3秘钥等信息：
 
 ```php
+<?php
 // config/autoload/file.php
 return [
     'credentials' => [
@@ -324,6 +325,8 @@ metadata:
 ## 完整示例
 
 一个完整的骨架包可以在我的GitHub找到：https://github.com/Reasno/cloudnative-hyperf
+
+***实际上Kubernetes的部署方式多种多样。任何骨架包都不可能适用所有情况。***
 
 
 
