@@ -34,6 +34,7 @@ class HealthCheckController extends AbstractController
 }
 ```
 ```php
+<?php
 // in config/Routes.php
 Router::addRoute(['GET', 'HEAD'], '/liveness', 'App\Controller\HealthCheckController@liveness');
 Router::addRoute(['GET', 'HEAD'], '/readiness', 'App\Controller\HealthCheckController@readiness');
@@ -161,6 +162,7 @@ return [
 按照官方文档的介绍，我们将框架打印的日志也交给Monolog处理。
 
 ```php
+<?php
 namespace App\Provider;
 
 use Hyperf\Logger\LoggerFactory;
@@ -197,6 +199,7 @@ composer require league/flysystem-aws-s3-v3
 按照Hyperf DI的官方文档创建工厂类并绑定关系。
 
 ```php
+<?php
 namespace App\Provider;
 
 use Aws\S3\S3Client;
@@ -278,16 +281,12 @@ Hyperf 服务监控文档：https://doc.hyperf.io/#/zh-cn/metric
 
 ```php
 <?php
-	//...
-	
-	// 将/metrics路由绑到这里。
-    public function metrics(CollectorRegistry $registry)
-    {
-        $renderer = new RenderTextFormat();
-        return $renderer->render($registry->getMetricFamilySamples());
-    }
-
-    // ...
+// 将/metrics路由绑到这里。
+public function metrics(CollectorRegistry $registry)
+{
+    $renderer = new RenderTextFormat();
+    return $renderer->render($registry->getMetricFamilySamples());
+}
 ```
 
 如果您使用的Prometheus支持从服务注解中发现爬取目标，只要在Service中添加Prometheus注解即可。 
