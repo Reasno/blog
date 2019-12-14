@@ -3,6 +3,11 @@ title: "云原生Hyperf"
 date: 2019-12-14T16:27:50+08:00
 featured_image: "/images/Kubernetes_logo_without_workmark.svg"
 draft: false
+tags:
+- Kubernetes
+- Hyperf
+- Docker
+- PHP
 toc: true
 ---
 
