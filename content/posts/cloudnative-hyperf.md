@@ -189,7 +189,7 @@ return [
 
 有状态的应用是无法任意扩容的。PHP应用常见状态无非是Session、日志、文件上传等。Session可用Redis存储，日志上一节已经介绍，本节介绍一下文件的处理。
 
-文件建议使用对象存储的形式上传到云端。阿里云、七牛云等都是常见的供应商。私有部署解决方案也包含MinIO、Ceph等。为了避免供应商锁定，建议使用统一的抽象层，而不是直接依赖供应商提供的SDK。League\Flysystem是包括Laravel在内等多个主流框架的共同选择。这里我们引入League\Flysystem包，并对接aws S3 API对接MinIO存储。
+文件建议使用对象存储的形式上传到云端。阿里云、七牛云等都是常见的供应商。私有部署解决方案也包含MinIO、Ceph等。为了避免供应商锁定，建议使用统一的抽象层，而不是直接依赖供应商提供的SDK。League\Flysystem是包括Laravel在内等多个主流框架的共同选择。这里我们引入League\Flysystem包，并通过aws S3 API对接MinIO存储。
 
 ```bash
 composer require league/flysystem
