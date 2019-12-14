@@ -296,7 +296,7 @@ public function metrics(CollectorRegistry $registry)
 kind: Service
 metadata:
   annotations:
-    prometheus.io/port: "80"
+    prometheus.io/port: "9501"
     prometheus.io/scrape: "true"
     prometheus.io/path: "/metrics"
 ```
