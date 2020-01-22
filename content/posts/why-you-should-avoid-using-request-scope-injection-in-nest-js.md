@@ -17,7 +17,7 @@ Moreover, the request-scoped object will infect every other object it is injecte
 
 The infectious nature of request scope may also cause unexpected bugs or unexpected behavior to your code. As of the time of writing, there are still open issues about request scope injection failures (e.g. [#3105](https://github.com/nestjs/nest/issues/3105)). Confusion with regards to request scope also arises when your code is not run on a web server. There are plenty of opportunities, such as in a cronjob, or in a unit test.
 
-There are better ways to access the request context and avoid using request scope injection altogether. In fact, web frameworks in NodeJS have solved this problem a long time ago and have already made it an idiomatic. You can simply pass the request context through the call chain! Pass it to your logger and services! No object has to be recreated. 
+There are better ways to access the request context and avoid using request scope injection altogether. In fact, web frameworks in NodeJS have solved this problem a long time ago and have already made it idiomatic. You can simply pass the request context through the call chain! Pass it to your logger and services! No object has to be recreated. 
 
 ```js
 app.use(async ctx => {
