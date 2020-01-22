@@ -1,5 +1,5 @@
 ---
-title: "Why You Should Avoid Using Request Scope Injection in NestJS"
+title: "Why You Should Avoid Using Request-scoped Injection in NestJS"
 date: 2020-01-22T16:04:50+08:00
 draft: false
 tags:
