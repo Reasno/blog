@@ -31,6 +31,7 @@ The above dilemma vanishes with the help of deadline.  The `ShopService` simply 
 
 While a little bit unintuitive, deadlines are more microservice friendly than timeouts.
 
+PS. I read a blog post saying deadlines are distributed timeouts. Precisely!
 
 
 
