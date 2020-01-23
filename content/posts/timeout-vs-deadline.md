@@ -21,7 +21,7 @@ I thought this might be another "Google" thing, so I didn't put my mind to it un
 
 Suppose we have three services chaining together:
 
-```
+```js
 ShopService->OrderService->PaymentService.
 ```
 
