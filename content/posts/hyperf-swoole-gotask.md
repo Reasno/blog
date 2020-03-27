@@ -1,7 +1,13 @@
 ---
-title: "Hyperf Swoole Gotask"
+title: "使用Hyperf插入100万行数据到MongoDB，能行吗"
 date: 2020-03-27T18:34:28+08:00
-draft: true
+draft: false
+tags:
+- Hyperf
+- Swoole
+- go
+- php
+- gotask
 ---
 
 得益于优秀的框架设计和超凡的性能，使用Hyperf/Swoole的开发时总体是非常愉悦了。就比如说Hyperf的AOP切面实现吧，曾几何时我为了做jaeger分布式追踪搞了一个很复杂的动态代理，但是后来惊喜的发现在Hyperf框架中用语法树重写在不损一毫秒的情况下就轻松解决了。
