@@ -31,4 +31,4 @@ app.use(async ctx => {
 
 This way, the context object will contain all you need for distributed tracing and context-aware logging. If web server agnosticism is your thing, you can define your own context class and passing it instead. To further reduce memory allocation and garbage collection you can take advantage of the [object pool pattern](https://github.com/coopernurse/node-pool). 
 
-Request scope in NestJS can still be useful, especially when you are not controlling the call chain, e.g. when the library constrains the function signature. Use it as a last resort to access requests, but certainly not your first choice. 
+Request scope in NestJS are still relavent, especially when you are not controlling the call chain, e.g. when the library constrains the function signature. Use it as a last resort to access requests, but certainly not your first choice.
