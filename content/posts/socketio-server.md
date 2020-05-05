@@ -2,6 +2,8 @@
 title: "Socket.io Server For Hyperf"
 date: 2020-05-05T23:27:59+08:00
 draft: false
+summary: 有小伙伴抱怨道，WebSocket Server感觉太原始，没有“框架感”。希望Socket.io协议的支持，可以让WebSocket更好用，不再有开篇提到的困惑。
+
 tags:
 - Hyperf
 - WebSocket
