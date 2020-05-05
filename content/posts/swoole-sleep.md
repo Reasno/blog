@@ -2,13 +2,15 @@
 title: "Interruptible Swoole Sleep"
 date: 2020-05-05T23:44:50+08:00
 draft: false
+summary: 假设我们有一个监控任务，每5秒钟将监控结果上报。那么问题来了，如果我们现在需要关闭服务，如何保证关闭前最后一批数据不丢失？
 tags:
 - Swoole
 - PHP
 - Hyperf
+
 ---
 
-假设我们有一个监控任务，每5秒钟将监控结果上报。
+
 
 ```php
 <?php

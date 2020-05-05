@@ -1,6 +1,7 @@
 ---
 title: "使用Hyperf插入100万行数据到MongoDB，能行吗"
 date: 2020-03-27T18:34:28+08:00
+summary: 最近用go搞了一个swoole的边车。是真的边车，用swoole process启动的。挂载到swoole server上跑，swoole起它起，swoole停它停，中间如果go挂了swoole还负责给拉起来。消息投递也照搬swoole task走IPC，从web worker上直接投递，等结果出来再返还web worker。
 draft: false
 tags:
 - Hyperf
