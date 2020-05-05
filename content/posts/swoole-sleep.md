@@ -11,6 +11,7 @@ tags:
 假设我们有一个监控任务，每5秒钟将监控结果上报。
 
 ```php
+<?php
 $buffer = [];
 // 另一个协程在填充buffer
 go(function() use ($buffer) {
