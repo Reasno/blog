@@ -79,7 +79,7 @@ Socket.io就是一套非常流行的WebSocket应用层协议。（Socket.io不�
 /**
  * @SocketIONamespace("/")
  */
-class SocketIOController extends BaseNamespace
+class WebSocketController extends BaseNamespace
 {
     /**
      * @Event("event")
@@ -87,6 +87,7 @@ class SocketIOController extends BaseNamespace
      */
     public function onEvent(Socket $socket, $data)
     {
+        // 应答
         return 'Event Received: ' . $data;
     }
 
@@ -96,9 +97,12 @@ class SocketIOController extends BaseNamespace
      */
     public function onJoinRoom(Socket $socket, $data)
     {
+        // 将当前用户加入房间
         $socket->join($data);
+        // 向房间内其他用户推送（不含当前用户）
         $socket->to($data)->emit('event', $socket->getSid() . "has joined {$data}");
-        $socket->emit('event', 'There are ' . count($socket->getAdapter()->clients($data)) . " players in {$data}");
+        // 向房间内所有人广播（含当前用户）
+        $this->emit('event', 'There are ' . count($socket->getAdapter()->clients($data)) . " players in {$data}");
     }
 
     /**
