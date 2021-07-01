@@ -22,7 +22,11 @@ import (
 func main() {
     defer func() {
         if r := recover(); r != nil {
-            _ = os.WriteFile("/dev/termination-log", []byte(fmt.Sprintf("panic: %s", r)), os.ModePerm)
+            _ = os.WriteFile(
+                "/dev/termination-log", 
+                []byte(fmt.Sprintf("panic: %s", r)), 
+                os.ModePerm,
+            )
             panic(r)
         }
     }()
