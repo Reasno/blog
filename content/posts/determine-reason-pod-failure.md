@@ -2,6 +2,9 @@
 title: "查看Pod重启的原因"
 date: 2021-07-01T17:01:03+08:00
 draft: false
+tags:
+- kubernetes
+- go
 ---
 
 在Kubernetes中，有时候Pod会异常重启。事后发现的时候错误原因在控制台面板里已经看不到了。
