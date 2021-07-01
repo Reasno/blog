@@ -70,7 +70,7 @@ kubectl get pod termination-demo -o go-template="{{range .status.containerStatus
 
 实际操作中，`FallbackToLogsOnError`的长度限制导致有时候会截取太少，丢掉重要信息。
 
-这里提供一个简单的最佳实践：将正常的日志打印到`stdout`中，将致命错误打印到`stderr`，然后将`terminationMessagePolicy`设置为`/dev/stderr`，即可精确的获取Pod重启原因。
+这里提供一个简单的最佳实践：将正常的日志打印到`stdout`中，将致命错误打印到`stderr`(Go里的panic默认就是stderr，不用拦截了)，然后将`terminationMessagePath`设置为`/dev/stderr`，即可精确的获取Pod重启原因。
 
 参考阅读：https://kubernetes.io/zh/docs/tasks/debug-application-cluster/determine-reason-pod-failure/
 
