@@ -68,6 +68,10 @@ kubectl get pod termination-demo -o go-template="{{range .status.containerStatus
 
 除此之外，如果项目不方便拦截错误，还可以将`terminationMessagePolicy`设置为`FallbackToLogsOnError`。 此时使用容器日志输出的最后一块作为终止消息。 日志输出限制为 2048 字节或 80 行，以较小者为准。
 
+实际操作中，FallbackToLogsOnError的长度限制导致有时候会截取太少，丢掉重要信息。
+
+这里提供一个简单的最佳实践：将正常的日志打印到`stdout`中，将致命错误打印到`stderr`，然后将`terminationMessagePolicy`设置为`/dev/stderr`，即可精确的获取Pod重启原因。
+
 参考阅读：https://kubernetes.io/zh/docs/tasks/debug-application-cluster/determine-reason-pod-failure/
 
 
